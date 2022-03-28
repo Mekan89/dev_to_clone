@@ -16,17 +16,17 @@ function Widgets({ see, title }: { see?: boolean; title: string }) {
         )}
       </Box>
       <Divider />
-      <Typography variant="body2">Javascript developer looking for remote work</Typography>
+      <Typography>Javascript developer looking for remote work</Typography>
       <Typography variant="caption" color={grey[700]}>
         forhire
       </Typography>
       <Divider />
-      <Typography variant="body2">Building Progressive Web Apps Hands - on Workshop - 4/29 1pm ET (GMT -4)</Typography>
+      <Typography>Building Progressive Web Apps Hands - on Workshop - 4/29 1pm ET (GMT -4)</Typography>
       <Typography variant="caption" color={grey[700]}>
         events
       </Typography>
       <Divider />
-      <Typography variant="body2">Want to know how a JavaScript framework works under the hood?</Typography>
+      <Typography>Want to know how a JavaScript framework works under the hood?</Typography>
       <Typography variant="caption" color={grey[700]}>
         education
       </Typography>

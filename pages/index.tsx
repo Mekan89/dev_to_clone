@@ -21,7 +21,7 @@ function Home({ fallback }: { fallback: any }) {
           <Grid item md>
             <Sidebar open={open} toggleDrawer={toggleDrawer} />
           </Grid>
-          <Grid item xs={12} md={6}>
+          <Grid item xs={12} md={6.5}>
             <Feed active={active} setActive={setActive} fallback={fallback} />
           </Grid>
           <Grid item md={3.5}>
