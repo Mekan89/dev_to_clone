@@ -1,5 +1,5 @@
 {
-  "name": "nextjs_ts_mui_recoil_boilerplate",
+  "name": "devto_clone",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,13 +13,13 @@
     "@emotion/react": "latest",
     "@emotion/server": "latest",
     "@emotion/styled": "latest",
-    "@mui/icons-material": "^5.4.2",
+    "@mui/icons-material": "^5.5.1",
     "@mui/material": "latest",
     "@mui/system": "latest",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "recoil": "latest"
+    "swr": "^1.2.2"
   },
   "devDependencies": {
     "@types/node": "latest",

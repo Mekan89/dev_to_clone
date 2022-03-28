@@ -11,9 +11,13 @@ export default class MyDocument extends Document {
       <Html lang="en">
         <Head>
           {/* PWA primary color */}
+          <meta property="og:title" content="DEV Community 👨‍💻👨‍💻" />
+          <link rel="shortcut icon" href="/favicon.png" />
+          <meta name="keywords" content="Nextjs, Material-UI, Recoil" />
+          <meta name="description" content="Devto clone" />
+          <meta name="author" content="Mekan Allanov" />
           <meta name="theme-color" content={theme.palette.primary.main} />
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" />
-          <link rel="shortcut icon" href="/favicon.ico" />
           {/* Inject MUI styles first to match with the prepend: true configuration. */}
           {(this.props as any).emotionStyleTags}
         </Head>

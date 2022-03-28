@@ -1,16 +1,39 @@
 import { createTheme, responsiveFontSizes } from "@mui/material";
 
-// Create a theme instance.
 let theme = createTheme({
   palette: {
     primary: {
-      // main: "#DE6A0A",
-    },
-    secondary: {
-      // main: "#0BDE7D",
+      main: "#3e4adb",
     },
     background: {
-      default: "#fff",
+      default: "#eff0f1",
+    },
+  },
+  typography: {
+    fontFamily: [
+      "-apple-system",
+      "BlinkMacSystemFont",
+      '"Segoe UI"',
+      "Roboto",
+      '"Helvetica Neue"',
+      "Arial",
+      "sans-serif",
+      '"Apple Color Emoji"',
+      '"Segoe UI Emoji"',
+      '"Segoe UI Symbol"',
+    ].join(","),
+  },
+  components: {
+    MuiButton: {
+      styleOverrides: {
+        root: {
+          textTransform: "initial",
+        },
+        textPrimary: {
+          color: "#4d5760",
+          "&:hover": { color: "#3e4adb" },
+        },
+      },
     },
   },
 });
